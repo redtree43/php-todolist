@@ -27,4 +27,6 @@ if (isset($_POST['submit'])) {
 foreach ($_SESSION['list'] as $value) {
     echo "<li>$value</li>";
 }
+
+echo "Just Do It";
 ?>
